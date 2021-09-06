@@ -1,5 +1,7 @@
 # elena14
 
+Accompanying video [SAP UI5 Web Components Getting Started with ViteJS](https://youtu.be/cfdtbrs8sg0)
+
 A [SAP UI5 web component](https://sap.github.io/ui5-webcomponents/) application for Elena Pietrini ITA, 14.
 SAP UI5 is written in pure javascript, no typescript based on their own [UI5Element](https://github.com/SAP/ui5-webcomponents/blob/894628fa2dc7225936bb1609037054c7d9243f8e/packages/base/src/UI5Element.js#L59) which can be referenced as @ui5/webcomponents-base/dist/UI5Element.js.
 The [UI5 react wrapper](https://github.com/SAP/ui5-webcomponents#ui5-web-components-for-react) has typescript definitions, but the base package doesn't.
