@@ -5,8 +5,9 @@ SAP UI5 is written in pure javascript, no typescript based on their own [UI5Elem
 
 Accompanying videos
 - [SAP UI5 Web Components 01 Getting Started with ViteJS](https://youtu.be/cfdtbrs8sg0)
+- [SAP UI5 Web Components 02 ViiteJS lit-element-ts Project Setup](https://youtu.be/r62zNZ3pIqw)
 
-## Project Setup
+## Project Setup with ViteJs Lit Element TypeScript for Video 02 (Branch elena14lit)
 The [Getting Started](https://sap.github.io/ui5-webcomponents/playground) recommends to use Vite.
 - **npm init vite** should be called from a parent folder, since the initializer will ask for a project name and it will generate a folder with that name. No README will be generated.
     - Project name: elena14
@@ -16,7 +17,8 @@ The [Getting Started](https://sap.github.io/ui5-webcomponents/playground) recomm
     - Select a variant: lit-element-ts
         - This generates a typescript project
 - I created an elena14 GitHub repo and I linked the local folder to this remote repo.
-
+- **npm install** is to install the modules defined in the generated package.json
+- **npm run dev** is to start the vite dev server
 
 ## Vanilla Experiments with SAP UI5 Web Components for Video 01
 - **npm install @ui5/webcomponents**
