@@ -3,6 +3,9 @@
 A [SAP UI5 web component](https://sap.github.io/ui5-webcomponents/) application for Elena Pietrini ITA, 14.
 SAP UI5 is written in pure javascript, no typescript based on their own [UI5Element](https://github.com/SAP/ui5-webcomponents/blob/894628fa2dc7225936bb1609037054c7d9243f8e/packages/base/src/UI5Element.js#L59) which can be referenced as @ui5/webcomponents-base/dist/UI5Element.js.
 
+**Since this branch is a ViteJS lit-element library project for web component making, the builder makes non-deployable minified single es.js file.* 
+So, this project could be made an NPM project and upload to NPM store or use NPM linking** 
+
 Accompanying videos
 - [SAP UI5 Web Components 01 Getting Started with ViteJS](https://youtu.be/cfdtbrs8sg0)
 - [SAP UI5 Web Components 02 ViiteJS lit-element-ts Project Setup](https://youtu.be/r62zNZ3pIqw)
@@ -13,9 +16,10 @@ The [Getting Started](https://sap.github.io/ui5-webcomponents/playground) recomm
     - Project name: elena14
         - A folder will be created with this name. 
     - Select a framework: lit-element
-        - In my first video I selected vanilla, but then I reinitialized the project with lit-element-ts 
+        - In my first video I selected vanilla, but then I reinitialized the project with lit-element-ts.
+          - And this was a mistake, **vitejs lit-element projects are meant for making web component libraries** not for making regular web application. 
     - Select a variant: lit-element-ts
-        - This generates a typescript project
+        - This generates a TypeScript **library** project with a nice sample component to get started easily.
 - I created an elena14 GitHub repo and I linked the local folder to this remote repo.
 - **npm install** is to install the modules defined in the generated package.json
 - **npm run dev** is to start the vite dev server
