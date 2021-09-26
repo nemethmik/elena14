@@ -1,10 +1,12 @@
 # elena14
 
+Live demo on [Azure](https://lemon-island-020376c03.azurestaticapps.net/)
+
 This is a multi-project repository for applications using
 [SAP UI5 web components](https://sap.github.io/ui5-webcomponents/). Elena Pietrini ITA, 14.
 SAP UI5 was written in pure JavaScript, and they developed their own base component [UI5Element](https://github.com/SAP/ui5-webcomponents/blob/894628fa2dc7225936bb1609037054c7d9243f8e/packages/base/src/UI5Element.js#L59), which can be referenced as @ui5/webcomponents-base/dist/UI5Element.js.
 
-The project [paola18]() has a number of useful experimentings with UI5 web components.
+The projects [paola18](https://github.com/nemethmik/paola18.git) and [cristina10/jobwatch](https://github.com/nemethmik/cristina10/tree/main/jobwatch) have a number of useful experimentings with UI5 web components, and a number of their findings have been reused in this project.
 
 ## Project Setup
 The [SAP Getting Started](https://sap.github.io/ui5-webcomponents/playground) recommends to use Vite.
