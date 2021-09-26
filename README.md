@@ -23,6 +23,10 @@ The [SAP Getting Started](https://sap.github.io/ui5-webcomponents/playground) re
 
 **SAP UI5 worked excellently!**
 
+## Dark Theme
+The CSS Variables are documented in
+[css-vars-usage.json](e14watch\node_modules\@ui5\webcomponents-theme-base\css-vars-usage.json)
+
 ## Git Guidelines
 [SAP UI5 git guidelines](https://sap.github.io/ui5-webcomponents/playground/docs/guidelines/)
 committype(scope): do this and that for explanation

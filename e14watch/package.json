@@ -2,8 +2,10 @@
   "name": "e14watch",
   "version": "0.1.0",
   "description": "An experimental (sub) mobile business application (Job Watch) with web components",
-  "repository": {"type": "git",
-    "url": "https://github.com/nemethmik/elena14.git"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nemethmik/elena14.git"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -21,6 +23,7 @@
   },
   "dependencies": {
     "@ui5/webcomponents": "^1.0.0-rc.15",
+    "@ui5/webcomponents-fiori": "^1.0.0-rc.15",
     "lit": "^2.0.0"
   }
 }

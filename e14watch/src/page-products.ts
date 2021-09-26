@@ -11,6 +11,7 @@ import "@ui5/webcomponents-icons/dist/arrow-left.js"
 import "@ui5/webcomponents-icons/dist/arrow-right.js"
 import "@ui5/webcomponents-icons/dist/bullet-text.js"
 //import UI5CheckBox from "./ui5types/CheckBox"
+import "@ui5/webcomponents-fiori/dist/ShellBar"
 import "@ui5/webcomponents/dist/TableRow.js"
 import "@ui5/webcomponents/dist/TableCell.js"
 import "@ui5/webcomponents/dist/BusyIndicator.js"
@@ -48,6 +49,12 @@ class PageProducts extends PageBase {
         <section>
             <header>
                 <ui5-title level="H1">E14 Products</ui5-title>
+                <!--
+                <ui5-shellbar primary-title="E14 Products" 
+                show-notifications notifications-count=22 show-product-switch>
+                    <img slot=logo src="./tivalogo2.png"/>
+                </ui5-shellbar>
+                -->
             </header>
             <main>
                 <ui5-busy-indicator size="Medium" text="Loading data ..." delay=${PageProducts.BUSYINDICATORDELAY}>

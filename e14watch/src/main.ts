@@ -1,6 +1,9 @@
 //import "./style.css"
 import {html,render,LitElement,TemplateResult} from "lit"
 import { customElement, property } from "lit/decorators.js"
+import "@ui5/webcomponents-theme-base/dist/Assets"
+import {setTheme} from "@ui5/webcomponents-base/dist/config/Theme"
+import "@ui5/webcomponents-fiori/dist/Assets"
 import "./page-products"
 const app = document.querySelector<HTMLDivElement>("#app")!
 // app.innerHTML = `
@@ -8,6 +11,12 @@ const app = document.querySelector<HTMLDivElement>("#app")!
 //   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
 // `
 render(html`<my-app></my-app>`,app)
+setTheme("sap_fiori_3_dark")
+//setTheme("sap_belize_hcb")
+//setTheme("sap_belize_hcw")
+//setTheme("sap_belize")
+//setTheme("sap_fiori_3_hcb")
+//setTheme("sap_fiori_3_hcw")
 
 type TAppPages = "Products" | "Login"
 
