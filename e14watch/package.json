@@ -1,0 +1,21 @@
+{
+  "name": "e14watch",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && copyfiles products.json dist",
+    "serve": "vite preview",
+    "fix": "eslint src --fix"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint": "^7.32.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4"
+  },
+  "dependencies": {
+    "@ui5/webcomponents": "^1.0.0-rc.15",
+    "lit": "^2.0.0"
+  }
+}
