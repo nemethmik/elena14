@@ -11,6 +11,7 @@
     "dev": "vite",
     "build": "tsc && vite build && copyfiles products.json dist",
     "serve": "vite preview",
+    "servor": "npx servor dist index.html 8080 --browse --reload",
     "fix": "eslint src --fix"
   },
   "devDependencies": {
