@@ -14,6 +14,8 @@ The [SAP Getting Started](https://sap.github.io/ui5-webcomponents/playground) re
     - Select a framework: vanilla
     - Select a variant: vanilla-ts
         - This generates a TypeScript project
+- **npm i -D eslint copyfiles** for dev dependencies
+  - **npx eslint --init** 
 - **npm install lit @ui5/webcomponents**
 - The [SAP Icons](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons) are here. The webcomponents package included the icons, too, but each icon should be imported in themoodule before using it, which is not a big deal.
 
