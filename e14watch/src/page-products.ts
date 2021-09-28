@@ -39,8 +39,8 @@ class PageProducts extends PageBase {
         //This is important to force the table for full viewport width
         //otherwise the busy-indicator shrints it to a narrow column.
         return [...super.styles, 
-            css`ui5-table {min-width:98vw}`,
-            css`section {height:93vh}`, //Override section viewport height
+            css`ui5-table {min-width:99vw}`,
+            css`section {height:85vh}`, //Override section viewport height
         ]
     }
     override render():TemplateResult {
