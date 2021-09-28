@@ -12,6 +12,7 @@
     "build": "tsc && vite build && copyfiles products.json dist",
     "serve": "vite preview",
     "servor": "npx servor dist index.html 8080 --browse --reload",
+    "ui5:popover": "tsc ./node_modules/@ui5/webcomponents/src/Popover.js --declaration --allowJs --emitDeclarationOnly --outDir ./src/ui5types",
     "fix": "eslint src --fix"
   },
   "devDependencies": {
